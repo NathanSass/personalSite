@@ -1,0 +1,49 @@
+
+#intro { 
+  background: url(../img/beautiful_js.jpg) 50% 0 no-repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#intro article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+#polemic{
+  background: blue;
+  height: 500px;
+    margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative;
+
+}
+
+#kayak{
+  background: url(../img/nathan_sass_kayak2.jpg) 100% 0 no-repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+
+#kayak article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+/* 
+#polemic { 
+}
+ 
