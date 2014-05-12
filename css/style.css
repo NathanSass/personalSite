@@ -1,7 +1,8 @@
 
 #intro { 
-  background: url(../img/beautiful_js.jpg) 50% 0 no-repeat fixed; min-height: 1000px; 
-  height: 1000px; 
+  background: url(../img/beautiful_js.jpg) 50% 0 no-repeat fixed;
+  min-height: 300px; 
+  height: 300px; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -19,7 +20,7 @@
 #polemic{
   background: blue;
   height: 500px;
-    margin: 0 auto; 
+  margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
   position: relative;
@@ -27,7 +28,8 @@
 }
 
 #kayak{
-  background: url(../img/nathan_sass_kayak2.jpg) 100% 0 no-repeat fixed; min-height: 1000px; 
+  background: url(../img/nathan_sass_kayak2.jpg) 100% 0 no-repeat fixed;
+  min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -42,6 +44,35 @@
   top: 150px; 
   width: 100%; 
 }
+
+#projects {
+  background: aliceblue;
+  height: 500px;
+  width: 100%;
+  margin-top: 500px
+}
+
+#contact{
+  background: green;
+  height: 500px;
+  width: 100%;
+  margin-top: 500px
+}
+
+footer {
+  background: red;
+  height: 50px;
+  width: 100%;
+
+}
+
+/*#contact div {
+   background: green;
+  height: 500px;
+  width: 100%;
+  /*margin-top: 500px;*/
+
+/**/
 
 /* 
 #polemic { 
