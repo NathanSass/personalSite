@@ -6,47 +6,39 @@
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
-	<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-	<script src="application.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="./js/application.js"></script>
 </head>
+
 <body>
-	<nav>
+	<header>
 		<ul>
-			<li><a href="#">About.</a><li>
-			<li><a href="#">Projects.</a><li>
-			<li><a href="#">Contact.</a><li>
+			<li><a href="#">About.</a></li>
+			<li><a href="#">Projects.</a></li>
+			<li><a href="#">Contact.</a></li>
 		</ul>
-	</nav>
-	<section id="intro" data-type="background" data-speed="10">
-	</section>
+	</header>
 	
-	<section id="polemic" data-type="background" data-speed="10">	This is where is say deep things</section>
-	
-	<section id="kayak" data-type="background" data-speed="10">	
-		<article> 
-			<h1> SAMPLE TAGLINE DEEP INFO SAD BOYS <h1>
-			<div id="projects">
-				<h1> Projects. </h1>
-				<ul>
-					<li> EPICSWAP </li>
-					<li> LocalHunt </li>
-					<li> Github </li>
-				</ul>
-			</div> 
+	<div class="content-container ">
+		<div id="background-image" class="beautiful-js"></div>
+		<div id="background-image" class="beautiful-truchas"></div>
+		<article class="polemic">
+			<h1>Friendships</h1><br><br><br>
+			<h1>Architecture</h1><br><br><br>
+			<h1>DayDreamin</h1>
 		</article>
-	</section>
-	
-	<section id="kayak" data-type="background" data-speed="10">
-		<article>
-			<h1> BOOOM BOOOM BOOOM <h1>
-			<div id="contact">
-				<h1>Contact.</h1>
-			</div>
-			<footer>
-				<p> By nathan Sass. Thanks for visiting </p>
-			</footer>
+	</div>
+
+	<div class="content-container work-container">
+		<article class="work">
+			<h1> Work. </h1>
+			<ul>
+				<li> EPICSWAP </li>
+				<li> LocalHunt </li>
+				<li> Github </li>
+			</ul>
 		</article>
-	</section>
+	</div>
 
 </body>
 </html>

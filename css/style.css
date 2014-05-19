@@ -1,80 +1,55 @@
+header{
+  background-color: blue;
+  width: 100%;
+  height: 70px;
+  overflow: hidden; 
+}
+.beautiful-js { 
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: -2;
+  background: #000 url(../img/beautiful_js.jpg) center center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  height: 500px;
+}
 
-#intro { 
-  background: url(../img/beautiful_js.jpg) 50% 0 no-repeat fixed;
-  min-height: 300px; 
-  height: 300px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
+.beautiful-truchas { 
+  position: fixed;
+  width: 100%;
+  top: 450px;
+  z-index: -1;
+  background: #000 url(../img/nathan_sass_kayak2.jpg) center center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  height: 1000px;
+}
+
+.polemic {
+  max-width: 700px;
+  padding: 60px 0px 60px 0px;
+  margin: 0px auto;
 }
  
-#intro article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
+.work {
+  max-width: 700px;
+  padding: 60px 0px 60px 0px;
+  margin: 0px auto;
 }
 
-#polemic{
-  background: blue;
-  height: 500px;
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative;
+.content-container {
+  margin-top: 400px;
+  background-color: grey;
+}
+
+.work-container{
 
 }
+ 
 
 #kayak{
-  background: url(../img/nathan_sass_kayak2.jpg) 100% 0 no-repeat fixed;
-  min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
+  background: url(../img/nathan_sass_kayak2.jpg) 100% 0 no-repeat fixed; 
 }
 
-#kayak article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
-
-#projects {
-  background: aliceblue;
-  height: 500px;
-  width: 100%;
-  margin-top: 500px
-}
-
-#contact{
-  background: green;
-  height: 500px;
-  width: 100%;
-  margin-top: 500px
-}
-
-footer {
-  background: red;
-  height: 50px;
-  width: 100%;
-
-}
-
-/*#contact div {
-   background: green;
-  height: 500px;
-  width: 100%;
-  /*margin-top: 500px;*/
-
-/**/
-
-/* 
-#polemic { 
-}
  
