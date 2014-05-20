@@ -23,6 +23,16 @@ ul {
 a {
   text-decoration: none;
 }
+
+.content-area{
+  max-width: 1000px;
+  padding: 70px 0px 70px 0px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/*-------------- CONTENT BEGIN --------------*/
+
 .content-container {
   margin-top: 300px;
   background-color: white;
@@ -50,13 +60,6 @@ a {
   height: 1000px;
 }
 
-.polemic {
-  max-width: 1000px;
-  padding: 70px 0px 70px 0px;
-  margin: 0px auto;
-  text-align: center;
-}
-
 .polemic h1 {
   font-weight: 100;
   font-size: 1.75em;
@@ -71,11 +74,9 @@ a {
   padding-top: 40px
 }
  
-.work {
-  max-width: 1000px;
-  padding: 70px 0px 70px 0px;
-  margin: 0px auto;
-  text-align: center;
+/*-------------- WORK SECTION BEGIN --------------*/
+.work-container{
+  margin-top: 700px
 }
 
 .work ul{
@@ -104,8 +105,31 @@ a {
 }
 
 
-.work-container{
-  margin-top: 700px
+/*-------------- CONTACT SECTION BEGIN --------------*/
+
+.contact-container{
+  margin-top: 0px;
+  background-color: #e0e5e3;
+}
+
+.contact {
+  padding-bottom: 300px;
+}
+
+.contact h1 {
+  padding-bottom: 5vh;
+  margin: 0;
+}
+
+.contact img{
+  border-radius: 50%;
+}
+
+.contact h2 {
+  padding: 5vh 0 0 0;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 100;
 }
 
 .hidden {
