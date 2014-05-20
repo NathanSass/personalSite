@@ -1,3 +1,8 @@
+body {
+  font-family: "Lato";
+  color: #1b1464;
+}
+
 header{
   background-color: blue;
   width: 100%;
@@ -27,9 +32,23 @@ header{
 }
 
 .polemic {
-  max-width: 22em;
-  padding: 5% 0 5% 0;
+  max-width: 1000px;
+  padding: 70px 0px 70px 0px;
   margin: 0px auto;
+  text-align: center;
+}
+
+.polemic h1 {
+  font-weight: 100;
+  font-size: 1.75em;
+}
+
+.polemic h1:nth-child(2) {
+  padding: 60px 0 60px 0;
+}
+
+.polemic img{
+  padding-top: 30px
 }
  
 .work {
