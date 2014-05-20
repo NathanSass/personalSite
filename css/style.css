@@ -11,6 +11,18 @@ header{
   overflow: hidden; 
 }
 
+h1 {
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 .content-container {
   margin-top: 300px;
   background-color: white;
@@ -60,10 +72,35 @@ header{
 }
  
 .work {
-  max-width: 22em;
-  padding: 5% 0 5% 0;
+  max-width: 1000px;
+  padding: 70px 0px 70px 0px;
   margin: 0px auto;
-  padding-bottom: 700px;
+  text-align: center;
+}
+
+.work ul{
+  list-style: none;
+  margin-right: 25px;
+}
+
+.work ul li {
+  font-weight: 100;
+  font-size: 1.75em;
+}
+
+.work ul li:first-child{
+  padding: 0 0 10px 0;
+}
+
+.work ul li{
+  padding: 10px 0 10px 0;
+}
+.work ul li:last-child{
+  padding: 10px 0 0 0;
+}
+
+.work ul li a:hover {
+  color: rgb(14, 200, 20);
 }
 
 
