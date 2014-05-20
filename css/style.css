@@ -1,6 +1,7 @@
 body {
   font-family: "Lato";
-  background-color: black;
+  background-color:  #0d4d2c; 
+  /*background color is where the footer color is set*/
   color: #1302C3;
 }
 
@@ -112,9 +113,6 @@ a {
   background-color: #e0e5e3;
 }
 
-.contact {
-  padding-bottom: 300px;
-}
 
 .contact h1 {
   padding-bottom: 5vh;
@@ -130,6 +128,24 @@ a {
   margin: 0;
   font-size: 2em;
   font-weight: 100;
+}
+
+/*-------------- FOOTER SECTION BEGIN --------------*/
+
+footer{
+  max-width: 1000px;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 100;
+  color: white;
+}
+
+footer p{
+  margin: 0;
+  padding: 5vh 0 5vh 0;
+  letter-spacing: 0.07em;
 }
 
 .hidden {
