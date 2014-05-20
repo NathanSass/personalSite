@@ -1,14 +1,21 @@
 body {
   font-family: "Lato";
-  color: #1b1464;
+  background-color: black;
+  color: #1302C3;
 }
 
 header{
-  background-color: blue;
+  background-color: white;
   width: 100%;
   height: 70px;
   overflow: hidden; 
 }
+
+.content-container {
+  margin-top: 300px;
+  background-color: white;
+}
+
 .beautiful-js { 
   position: fixed;
   width: 100%;
@@ -23,12 +30,12 @@ header{
 .beautiful-truchas { 
   position: fixed;
   width: 100%;
-  top: 300px;
+  /*top: 400px;*/
   z-index: -1;
-  background: #000 url(../img/nathan_sass_kayak2.jpg) center center no-repeat;
+  background: #000 url(../img/nathan_sass_kayak.jpg) center center no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
-  height: 300px;
+  height: 1000px;
 }
 
 .polemic {
@@ -41,6 +48,7 @@ header{
 .polemic h1 {
   font-weight: 100;
   font-size: 1.75em;
+  letter-spacing: 0.07em;
 }
 
 .polemic h1:nth-child(2) {
@@ -48,23 +56,20 @@ header{
 }
 
 .polemic img{
-  padding-top: 30px
+  padding-top: 40px
 }
  
 .work {
   max-width: 22em;
   padding: 5% 0 5% 0;
   margin: 0px auto;
+  padding-bottom: 700px;
 }
 
-.content-container {
-  margin-top: 300px;
-  background-color: grey;
+
+.work-container{
+  margin-top: 700px
 }
-
-/*.work-container{
-
-}*/
 
 .hidden {
   display: none;
