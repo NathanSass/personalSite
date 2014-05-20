@@ -1,16 +1,22 @@
-$(document).ready(function(){
+// function removePx(string){
+// 	var noPx = string.slice(0, (string.length - 2));
+// 	return parseInt(noPx);
+// }
+
+
+// $(document).ready(function(){
 	
-	$(document).scroll(function(e){
-		// console.log(document.body.scrollTop)
-		if (document.body.scrollTop >= 470){
-		// debugger
-			// $('#background-image').removeClass('beautiful-js').addClass('beautiful-truchas')
-			// console.log("above 300");
-		};
-	});
+// 	var topValue = $('.beautiful-truchas').css('top')
+// 	var top = removePx(topValue);
 
+// 	$(document).scroll(function(e){
+// 		if (document.body.scrollTop >= 200){
+// 			top -= 2
+// 			$('.beautiful-truchas')[0].style.top = top + 'px'
+// 		};
+// 	});
+// });
 
-});
 
 
 

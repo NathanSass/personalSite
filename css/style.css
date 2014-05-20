@@ -18,7 +18,7 @@ header{
 .beautiful-truchas { 
   position: fixed;
   width: 100%;
-  top: 450px;
+  top: 500px;
   z-index: -1;
   background: #000 url(../img/nathan_sass_kayak2.jpg) center center no-repeat;
   background-size: cover;
@@ -46,10 +46,8 @@ header{
 .work-container{
 
 }
- 
 
-#kayak{
-  background: url(../img/nathan_sass_kayak2.jpg) 100% 0 no-repeat fixed; 
-}
+.hidden {
+  display: none;
+ }
 
- 
