@@ -1,25 +1,11 @@
-// function removePx(string){
-// 	var noPx = string.slice(0, (string.length - 2));
-// 	return parseInt(noPx);
-// }
+function detectmob() {
+ if((window.innerWidth <= 800) && (window.innerHeight <= 600)) {
+   return true;
+   } else {
+   	var s = skrollr.init();
+   }
+	}
 
-
-// $(document).ready(function(){
-	
-// 	var topValue = $('.beautiful-truchas').css('top')
-// 	var top = removePx(topValue);
-
-// 	$(document).scroll(function(e){
-// 		if (document.body.scrollTop >= 200){
-// 			top -= 2
-// 			$('.beautiful-truchas')[0].style.top = top + 'px'
-// 		};
-// 	});
-// });
-
-
-
-
-// $( "#target" ).scroll(function() {
-//   $( "#log" ).append( "<div>Handler for .scroll() called.</div>" );
-// });
+$(document).ready(function(){
+	detectmob();	
+});

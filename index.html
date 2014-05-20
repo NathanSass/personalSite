@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="./js/viewport-units-buggyfill.js"></script>
+	<script>window.viewportUnitsBuggyfill.init();</script>
 	<script src="./js/application.js"></script>
 </head>
 
@@ -18,10 +20,11 @@
 			<li><a href="#">Contact.</a></li>
 		</ul>
 	</header>
+	<!-- data-135="top: 300px" data-700="top: 30px" -->
 	
 	<div class="content-container ">
 		<div id="background-image" class="beautiful-js"></div>
-		<div class="beautiful-truchas" data-135="top: 600px" data-700="top: 30px"></div>
+		<!-- <div class="beautiful-truchas"></div> -->
 		<article class="polemic">
 			<h1>Friendships</h1><br><br><br>
 			<h1>Architecture</h1><br><br><br>
@@ -41,7 +44,7 @@
 	</div>
 	<script type="text/javascript" src="js/skrollr.min.js"></script>
   <script type="text/javascript">
-  var s = skrollr.init();
+  
   </script>
 </body>
 </html>

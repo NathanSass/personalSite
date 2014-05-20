@@ -9,43 +9,43 @@ header{
   width: 100%;
   top: 0;
   z-index: -2;
-  background: #000 url(../img/beautiful_js.jpg) center center no-repeat;
+  background: #000 url(../img/beautiful_js2.jpg) center center no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
-  height: 500px;
+  height: 400px;
 }
 
 .beautiful-truchas { 
   position: fixed;
   width: 100%;
-  top: 500px;
+  top: 300px;
   z-index: -1;
   background: #000 url(../img/nathan_sass_kayak2.jpg) center center no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
-  height: 1000px;
+  height: 300px;
 }
 
 .polemic {
-  max-width: 700px;
-  padding: 60px 0px 60px 0px;
+  max-width: 22em;
+  padding: 5% 0 5% 0;
   margin: 0px auto;
 }
  
 .work {
-  max-width: 700px;
-  padding: 60px 0px 60px 0px;
+  max-width: 22em;
+  padding: 5% 0 5% 0;
   margin: 0px auto;
 }
 
 .content-container {
-  margin-top: 400px;
+  margin-top: 300px;
   background-color: grey;
 }
 
-.work-container{
+/*.work-container{
 
-}
+}*/
 
 .hidden {
   display: none;
