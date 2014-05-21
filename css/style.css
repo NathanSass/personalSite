@@ -187,14 +187,14 @@ footer p{
   }
 
   .polemic{
-    padding-top: 0px;
+    padding-top: 20px;
   }
 
   .mobile-tagline p{
     position: absolute;
     font-weight: 300;
     font-size: 2em;
-    color: white;
+    color: #48D48C;
     top: 175px;
     text-align: center;
     width: 100%;
@@ -211,7 +211,7 @@ footer p{
     background: #000 url(../img/nathan_sass_kayak3.jpg) top right no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
-    height: 500px;
+    height: 400px;
   }
 
   .beautiful-truchas{
