@@ -1,6 +1,6 @@
 body {
   font-family: "Lato";
-  background-color:  #0d4d2c; 
+  /*background-color:  aliceblue; */
   /*background color is where the footer color is set*/
   color: #1302C3;
 }
@@ -74,6 +74,15 @@ a {
 .beautiful-truchas span {
   font-weight: 400;
 }
+
+.beautiful-truchas-mobile{
+  visibility: hidden;
+}
+
+.hidden {
+  display: none;
+ }
+
 .polemic h1 {
   font-weight: 100;
   font-size: 1.75em;
@@ -146,13 +155,14 @@ a {
 /*-------------- FOOTER SECTION BEGIN --------------*/
 
 footer{
-  max-width: 1000px;
+  width: 100%;
   padding: 0px;
   margin: 0px auto;
   text-align: center;
   font-size: 1.5em;
   font-weight: 100;
   color: white;
+  background-color: #0d4d2c;
 }
 
 footer p{
@@ -161,7 +171,89 @@ footer p{
   letter-spacing: 0.07em;
 }
 
-.hidden {
-  display: none;
+/*-------------- MEDIA QUERIES --------------*/
+ @media screen and (max-width: 600px) {
+
+  .first-window {
+    margin-top: 300px;
+  }
+
+  .contact{
+    margin-top: 0px;
+  }
+
+  footer p{
+    padding: 1vh 0 1vh 0;
+  }
+
+  .polemic{
+    padding-top: 20px;
+  }
+
+  .mobile-tagline p{
+    position: absolute;
+    font-weight: 300;
+    font-size: 2em;
+    color: #48D48C;
+    top: 175px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .beautiful-truchas-mobile{
+    visibility: visible;
+    /*display: inline;*/
+    top: 0px !important;
+    /*right: 0px;*/
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    background: #000 url(../img/nathan_sass_kayak3.jpg) top right no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    height: 400px;
+  }
+
+  .beautiful-truchas{
+    display: none;
+  }
+
+  .beautiful-js{
+    display: none;
+  }
+
+  .work{
+    padding-top: 0px;
+  }
+
+  .work h1{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .work-container{
+    margin-top: 0px;
+  }
+
+  footer p{
+    margin: 0;
+    padding: 1vh 0 1vh 0;
+    letter-spacing: 0.07em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  }
 
